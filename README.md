@@ -7,7 +7,21 @@ Include
 - 📍 Functions + Tests + Dialyzer + Credo
 - 📍 Code readability feedback will come from your teammates
 
-## Code guidelines 
+`Documentation`
+- Set a proper description in the `@moduledoc`.
+- Put the complete typespec for schemas.
+
+`Cosmetic and readability`
+- Private functions doesn't need `@spec`.
+- Use global values and default arguments if you need to put an specific value `@default_algorithm :sha256`
+
+`Ecto`
+- Validate errors in changesets.
+
+`Git`
+- Squash your commits before merge.
+
+## Code guidelines
 
 `Function naming`
 - 📍 Organize funcions in order by alphabet.
